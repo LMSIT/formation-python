@@ -1,0 +1,7 @@
+ipython
+jinja2
+pycodestyle
+black
+flask
+requests
+invoke

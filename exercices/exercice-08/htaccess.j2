@@ -1,0 +1,5 @@
+Order Allow,Deny
+{% for rule, ip in ips %}
+{{ rule }} from {{ ip }}
+{% endfor %}
+Deny from all

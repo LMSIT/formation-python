@@ -1,0 +1,5 @@
+IP Address,Rule
+192.168.1.10,Allow
+172.100.2.11,Allow
+2.2.2,Allow
+1.1.1.1,Deny
