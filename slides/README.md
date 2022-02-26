@@ -1,4 +1,4 @@
-# Slides de la formation Python LBN
+# Slides de la formation Python LMS IT
 
 **Installez [reveal-md](https://github.com/webpro/reveal-md):**
 
@@ -9,7 +9,7 @@ npm install -g reveal-md
 **Lien http vers le site contenant les exercices:**
 
 ```shell
-export LBN_EXERCICE_URL=http://127.0.0.1:8000
+export LMS IT_EXERCICE_URL=http://127.0.0.1:8000
 export SLIDE_URL=http://127.0.0.1:8001
 ```
 
