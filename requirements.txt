@@ -5,3 +5,5 @@ black
 flask
 requests
 invoke
+azure-mgmt-resource>=18.0.0
+azure-identity
