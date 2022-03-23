@@ -1,22 +1,15 @@
-from pickle import FALSE, TRUE
 from azure.mgmt.resource import ResourceManagementClient
 from azure.identity import DefaultAzureCredential
-from azure.common.credentials import ServicePrincipalCredentials
-from datetime import datetime
-import json
-import os
-
-from pip import main
+# from azure.common.credentials import ServicePrincipalCredentials
 
 # Variables
-LOCATION = "westeurope"
 RESOURCE_GROUP_NAME = "RG-EMAZ-2022"
 
 # Configuration credention connexion
-AZURE_TENANT_ID = "2397b885-afe4-4bc7-9e1e-e4899ef44d1a"
-AZURE_CLIENT_ID = "6348cb5f-fa1e-45bc-906c-3dd3c4b0f0c0"
-AZURE_CLIENT_SECRET = "6skw1VISJ.-.M3cSbsq5ltQBTwja0E89K~"
-AZURE_SUBSCRIPTION_ID = "0847fb06-cbca-406f-9649-81b141d8c299"
+AZURE_TENANT_ID = "Replace with your azure tenant id"
+AZURE_CLIENT_ID = "Replace with your azure client id service principal"
+AZURE_CLIENT_SECRET = "Replace with your client secret id"
+AZURE_SUBSCRIPTION_ID = "Your subscription Id"
 
 # Function pour se connecter à la subscription
 
@@ -106,12 +99,3 @@ def delete_resource_group():
 if __name__ == "__main__":
     create_resource_group()
     update_resource_group()
-
-
-# {
-#   "appId": "6348cb5f-fa1e-45bc-906c-3dd3c4b0f0c0",
-#   "displayName": "myEmazServicePrincipalName",
-#   "name": "6348cb5f-fa1e-45bc-906c-3dd3c4b0f0c0",
-#   "password": "6skw1VISJ.-.M3cSbsq5ltQBTwja0E89K~",
-#   "tenant": "2397b885-afe4-4bc7-9e1e-e4899ef44d1a"
-# }
