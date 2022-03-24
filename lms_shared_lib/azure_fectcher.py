@@ -140,7 +140,8 @@ def get_access_token(
         raise AuthenticationError(msg)
 
     rm = ResourceManagementClient(credentials, subscription_id)
-    if rm.config.generate_client_request_id:
+    # if rm.config.generate_client_request_id:
+    if rm:
         return credentials.token
     else:
         msg = 'login azure failed'
@@ -314,11 +315,11 @@ def get_regions_list(subscription_id, session=None, token=None, is_china=False, 
 
 if __name__ == "__main__":
 
-    subscription_id = "0847fb06-cbca-406f-9649-81b141d8c299"
-    user = "6348cb5f-fa1e-45bc-906c-3dd3c4b0f0c0"
-    password = "6skw1VISJ.-.M3cSbsq5ltQBTwja0E89K~"
-    tenant = "2397b885-afe4-4bc7-9e1e-e4899ef44d1a"
-    resource_id = "/subscriptions/0847fb06-cbca-406f-9649-81b141d8c299/resourceGroups/RG-EMAZ-2022/providers/Microsoft.Storage/storageAccounts/pocemaz/blobServices/default"
+    subscription_id = "###############################"
+    user = "###############################"
+    password = "###########################"
+    tenant = "############################"
+    resource_id = "/subscriptions/{subscription_id}/resourceGroups/{resource_groupe_name}/providers/Microsoft.Storage/storageAccounts/pocemaz/blobServices/default" # exemple
 
     token = get_access_token(
         subscription_id=subscription_id,
@@ -333,4 +334,4 @@ if __name__ == "__main__":
     data = get_resource_by_id(resource_id, session=session)
     filepath = "export-resource-%s.json" % resource_id.replace("/", "@")
     with open(filepath, 'w') as fp:
-        json.dump(data, fp)
+        json.dump(data, fp, indent=4)

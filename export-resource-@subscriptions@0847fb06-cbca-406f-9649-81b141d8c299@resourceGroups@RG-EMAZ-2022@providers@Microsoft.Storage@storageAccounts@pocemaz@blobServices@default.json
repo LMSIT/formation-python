@@ -1,0 +1,29 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "id": "/subscriptions/0847fb06-cbca-406f-9649-81b141d8c299/resourceGroups/RG-EMAZ-2022/providers/Microsoft.Storage/storageAccounts/pocemaz/blobServices/default",
+    "name": "default",
+    "type": "Microsoft.Storage/storageAccounts/blobServices",
+    "properties": {
+        "changeFeed": {
+            "enabled": false
+        },
+        "restorePolicy": {
+            "enabled": false
+        },
+        "containerDeleteRetentionPolicy": {
+            "enabled": true,
+            "days": 7
+        },
+        "cors": {
+            "corsRules": []
+        },
+        "deleteRetentionPolicy": {
+            "enabled": true,
+            "days": 7
+        },
+        "isVersioningEnabled": false
+    }
+}
