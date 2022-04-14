@@ -293,6 +293,7 @@ def get_regions_list(subscription_id, session=None, token=None, is_china=False, 
     api_version = PROVIDERS.get("Microsoft.Resources/locations".lower())
 
     url = f"{base_url}/subscriptions/{subscription_id}/locations?api-version={api_version}"
+
     session = session or get_session(token=token)
 
     resp = session.get(url, timeout=timeout)

@@ -11,8 +11,8 @@ setup(
         "flask",
         "requests==2.24.0"
     ],
-    author='Stephane RAULT',
-    author_email="s.rault@linkbynet.com",
+    author='Eugene Rodolphe',
+    author_email="rodolphemazamda@gmail.com",
     python_requires='>=3.7',
 )
 

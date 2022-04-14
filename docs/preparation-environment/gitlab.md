@@ -4,13 +4,13 @@
 
 Vous avez tous un espace personnel sur le Gitlab LBN.
 
-L'adresse pour y accéder est https://git.lbn.fr/PARTIE_GAUCHE_DE_L_EMAIL.
+L'adresse pour y accéder est https://gitlab.com/PARTIE_GAUCHE_DE_L_EMAIL.
 
 **Exemple:**
 
-- Mon email est s.rault@linkbynet.com
+- Mon email est rodolphemazamda@gmail.com
 - La partie gauche (ou local) est s.rault
-- Mon espace personnel est donc: https://git.lbn.fr/s.rault
+- Mon espace personnel est donc: https://gitlab.com/rodolphemazamda
 
 Dans cet espace, il est possible de suivre et mesurer l'activité d'un utilisateur.
 
@@ -20,7 +20,7 @@ Dans cet espace, il est possible de suivre et mesurer l'activité d'un utilisate
 
 Pour gérer des dépôts sur le GitLab LBN, il est obligatoire d'utiliser un token d'authentification.
 
-Vous pouvez le générer dans votre profil GitLab, à l'adresse https://git.lbn.fr/profile/personal_access_tokens
+Vous pouvez le générer dans votre profil GitLab, à l'adresse https://gitlab.com/profile/personal_access_tokens
 
 Ce token à une durée de vie limité et vous devrez le renouveler périodiquement.
 
@@ -31,7 +31,7 @@ Pour un accès en lecture/écriture à un projet, vous pouvez cocher **read_repo
 Ce token s'utilise dans l'url, par exemple pour cloner un projet:
 
 ```
-git clone https://USER:TOKEN@git.lbn.fr/YOUR_PROJECT
+git clone https://USER:TOKEN@gitlab.com/YOUR_PROJECT
 ```
 
 ## Configurez ~/.netrc pour GitLab
@@ -41,7 +41,7 @@ Pour éviter d'avoir à utiliser le token dans les URL, vous pouvez créer une e
 ```
 vi ~/.netrc
 
-machine git.lbn.fr
+machine gitlab.com
     login YOUR_LBN_EMAIL
     password YOUR_TOKEN
 

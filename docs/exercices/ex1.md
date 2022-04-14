@@ -27,7 +27,7 @@ Dans un premier temps, nous allons uniquement afficher le résultat à l'écran,
 mkdir htaccess-generator
 cd htaccess-generator
 git init
-git remote add origin https://git.lbn.fr/python-training/training-2020-10-19/users/<USERNAME>
+git remote add origin https://gitlab.com/python-training/training-2020-10-19/users/<USERNAME>
 
 # A faire à chaque commit en adaptant le message
 git add -A .

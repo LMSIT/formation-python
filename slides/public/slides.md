@@ -26,7 +26,7 @@
 ## Les moyens techniques de cette formation
 
 * [Support de cours](EXERCICE_URL)
-* [GitLab](https://git.lbn.fr/python-training/training-2020-10-19)
+* [GitLab](###########)
 * [Slack](https://app.slack.com/client/T2L2LRYNN/G01CUK03LUR)
 
 ---

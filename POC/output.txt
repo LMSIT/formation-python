@@ -1,0 +1,8 @@
+Chef 10,  Administration,  200,  1700
+Chef 20,  Marketing,  201,  1800
+Chef 30,  Purchasing,  114,  1700
+Chef 40,  Human Resources,  203,  2400
+Chef 50,  Shipping,  121,  1500
+Chef 60,  IT,  103,  1400
+Chef 70,  Public Relations,  204,  2700
+Chef 80,  Sales,  145,  2500

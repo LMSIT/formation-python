@@ -15,16 +15,16 @@ Ce sont ces paramètres qui seront utilisés pour identifier les personnes qui a
 **Pour configurez Git avec ces 2 paramètres:**
 
 ```bash
-git config --global user.name "Stéphane RAULT"
-git config --global user.email s.rault@linkbynet.com
+git config --global user.name "USERNAME"
+git config --global user.email "email"
 ```
 
 **Vérifier la configuration globale de Git:**
 
 ```
 git config --global -l
-user.name=Stéphane RAULT
-user.email=stephane.rault@radicalspam.org
+user.name=Eugene Rodolphe
+user.email=rodolphemazamda@gmail.com
 ```
 
 **Vous pouvez également définir des alias qui vous seront très utiles:**
@@ -47,18 +47,18 @@ En partant du principe que vous venez de créer un repository **python-training*
 ```shell
 $ cd exercices
 $ git init
-$ git remote add origin https://YOUR_GIT_USERNAME:TOKEN@git.lbn.fr/YOUR_GIT_USERNAME/python-training.git
+$ git remote add origin https://YOUR_GIT_USERNAME:TOKEN@gitlab.com/YOUR_GIT_USERNAME/python-training.git
 $ git add .
 $ git commit -m "initial commit"
 $ git push origin master
 ```
 
-> Le token d'authentification à gitlab doit être généré [ici](https://git.lbn.fr/profile/personal_access_tokens)
+> Le token d'authentification à gitlab doit être généré [ici](https://gitlab.com/profile/personal_access_tokens)
 
 
 - Si le dépôt existait déjà sur Gitlab et qu'il contenait déjà des fichiers, nous aurions seulement utilisé:
 ```shell
-git clone https://YOUR_GIT_USERNAME:TOKEN@git.lbn.fr/YOUR_GIT_USERNAME/python-training.git
+git clone https://YOUR_GIT_USERNAME:TOKEN@gitlab.com/YOUR_GIT_USERNAME/python-training.git
 ```
 
 ## Les commandes essentielles de GIT
