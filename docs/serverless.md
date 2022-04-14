@@ -175,7 +175,7 @@ AZURE_SUBSCRIPTION_ID=00000000-0000-0000-0000-000000000000
 AZURE_REGION=westeurope
 AZURE_RESOURCE_GROUP=RG_TRAINING
 STORAGE_ACCOUNT_NAME=trainingstorage
-FUNCTION_APP_NAME=lbn-htaccess-generator-uat
+FUNCTION_APP_NAME=lms-htaccess-generator-uat
 
 # Compte azure ou service principal
 az login -u VOTRE_COMPTE_AZURE

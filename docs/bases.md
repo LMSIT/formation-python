@@ -6,8 +6,8 @@
 $ python3 -V
 Python 3.8.2
 
-$ python3 -c "print('Hello LBN')"
-Hello LBN
+$ python3 -c "print('Hello lms')"
+Hello lms
 
 $ python3 -m http.server -d .
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
@@ -20,8 +20,8 @@ $ python3
 ```
 
 ```python
-"Hello LBN"
-'Hello LBN'
+"Hello lms"
+'Hello lms'
 
 exit()
 ```

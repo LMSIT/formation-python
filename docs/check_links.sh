@@ -171,7 +171,7 @@ function check_external_link {
 		return
 	fi
 
-	echo $link_dest | grep -E '(git.lbn.fr|wiki.linkbynet.com|lbn-pid.slack.com|formatix.lbn.fr|intranet.linkbynet.com|calculator.managed-containers.lbn.fr|app.datadoghq.com|linkbynet365.sharepoint.com|github.com)' >/dev/null
+	echo $link_dest | grep -E '(git.lms.fr|wiki.linkbynet.com|lms-pid.slack.com|formatix.lms.fr|intranet.linkbynet.com|calculator.managed-containers.lms.fr|app.datadoghq.com|linkbynet365.sharepoint.com|github.com)' >/dev/null
 	if [ $? -eq 0 ]; then
 		#echo "excluded due to auth : $link_dest"
 		#increment_counter todo

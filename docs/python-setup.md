@@ -56,7 +56,7 @@ hello-world.py
 
 # Vérifiez où se trouve le script qui vient d'être exécuté
 type hello-world.py
-hello-world.py is hashed (~/code/lbn/supports/python-initiation/.venv/bin/hello-world.py)
+hello-world.py is hashed (~/code/lms/supports/python-initiation/.venv/bin/hello-world.py)
 
 # Vérifiez dans la liste des packages installés
 pip freeze | grep mypackage

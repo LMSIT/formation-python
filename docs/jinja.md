@@ -24,7 +24,7 @@ template.render(first_name='Alain', last_name='DURANT')
 # base.j2 ou base.html
 <html>
     <head>
-        <title>{% block title %}LBN Site{% endblock %}</title>          
+        <title>{% block title %}lms Site{% endblock %}</title>          
     </head>
     <body>
         <h1>{% block page_title %}{% endblock %}</h1>
@@ -41,7 +41,7 @@ template.render(first_name='Alain', last_name='DURANT')
 # home.j2
 {% extends "base.j2" %}
 
-{% block title %}LBN Site - Home Page{% endblock %}
+{% block title %}lms Site - Home Page{% endblock %}
 
 {% block content %}
 My text......

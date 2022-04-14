@@ -25,7 +25,7 @@ Vous aurez peut être un jour, la charge de reprendre le développement total ou
 
 ## Analyse d'un projet internet sur Gitlab
 
-- https://git.lbn.fr/engieit/fastmep-projects/fastmep-next/lbn-sdk/lbn-lrc
+- https://gitlab.com/engieit/fastmep-projects/fastmep-next/lms-sdk/lms-lrc
 
 **Ce sont à peu près les mêmes critères que pour un projet open-source:**
 
@@ -33,14 +33,14 @@ Vous aurez peut être un jour, la charge de reprendre le développement total ou
 - Tests et taux de couverture des test
     - Graphique pipeline en haut du readme
     - Graphique coverage en haut du readme
-    - https://git.lbn.fr/engieit/fastmep-projects/fastmep-next/lbn-sdk/lbn-lrc/-/pipelines
-    - https://git.lbn.fr/engieit/fastmep-projects/fastmep-next/lbn-sdk/lbn-lrc/-/jobs/233059
+    - https://gitlab.com/engieit/fastmep-projects/fastmep-next/lms-sdk/lms-lrc/-/pipelines
+    - https://gitlab.com/engieit/fastmep-projects/fastmep-next/lms-sdk/lms-lrc/-/jobs/233059
 - Qualité du code
 - Date du dernier commit
 
 **Particularités internes:**
 
-- Contributeurs (souvent, un seul chez LBN)
-    - Attention à vérifier dans l'annuaire si le collaborateur est toujours chez LBN
+- Contributeurs (souvent, un seul chez lms)
+    - Attention à vérifier dans l'annuaire si le collaborateur est toujours chez lms
 - Dépendances à d'autres projets interne
 - Codes d'accès spécifiques ou documentation pour les trouver sur Idefix, le wiki ou ailleurs
