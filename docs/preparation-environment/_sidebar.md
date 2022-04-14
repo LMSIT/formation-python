@@ -1,5 +1,5 @@
 - [Accueil](/)
-    - [Installation de Python](/preparation-environment/python-install)
+    - [Installation de Python LMS IT](/preparation-environment/python-install)
     - [Installation VSCode](/preparation-environment/vscode)
     - [Installation et configuration de Git](/preparation-environment/git)
     - [Préparation Gitlab](/preparation-environment/gitlab)

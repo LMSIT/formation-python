@@ -1,4 +1,4 @@
-# Support de la formation d'initiation à Python
+# Support de la formation d'initiation à Python LMS IT
 
 ## Introduction à Python
 
