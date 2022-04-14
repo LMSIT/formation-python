@@ -5,15 +5,10 @@ Le support est découpé en 3 parties:
 - Le support
 - Les solutions aux exercices
 
-## Slides
-
-Publié temporairement à l'adresse http://python-devops-training-slides.surge.sh/
-
-Toutes les explications pour exploiter les slides sont dans le répertoire slides/ de ce projet.
 
 ## Support
 
-Publié temporairement à l'adresse http://python-devops-training.surge.sh/
+Publié temporairement à l'adresse https://lmsit.github.io/formation-python/
 
 La documentation est rédigé en Markdown et affiché dynamiquement à l'aide de l'outil https://docsify.js.org/
 
